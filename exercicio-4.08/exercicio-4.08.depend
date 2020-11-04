@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1604453322 source:c:\users\clara\onedrive\documentos\algoritimos\exercicio-4.08\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

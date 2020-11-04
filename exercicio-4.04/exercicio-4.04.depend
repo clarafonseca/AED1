@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1604449197 source:c:\users\clara\onedrive\documentos\algoritimos\exercicio-4.04\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
