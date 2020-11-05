@@ -6,34 +6,33 @@
 Fibonacci. Valor de retorno: o termo Fibonacci. Teste o método a partir de main().
 */
 
-int fibo(int n);
+int fibonacci(int n);
 
 int main(){
     setlocale(LC_ALL,"portuguese");
     int termo;
-    printf("O termo final é %d\n", fibo(termo));
-
+    printf("Digite um número: ");
+    scanf("%d", &termo);
+    printf("O %d-ésimo termo fibonacci é %d\n",termo, fibonacci(termo));
 }
 
-int fibo(int n)
+int fibonacci(int n)
 {
-    int a, b, auxiliar, i;
+    int a, b, fibo, i;
     a = 0;
     b = 1;
-    printf("Digite um número: ");
-    scanf("%d", &n);
     if (n == 1)
     {
-        auxiliar=1;
+        fibo=1;
     }
     else
     {
         for(i = 0; i < n-1; i++)
         {
-            auxiliar = a + b;
+            fibo = a + b;
             a = b;
-            b = auxiliar;
+            b = fibo;
         }
     }
-    return auxiliar;
+    return fibo;
 }
