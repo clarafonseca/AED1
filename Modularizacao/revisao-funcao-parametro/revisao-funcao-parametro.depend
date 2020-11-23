@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1603380798 source:c:\users\clara\onedrive\documentos\algoritimos\revisao-funcao-parametro\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

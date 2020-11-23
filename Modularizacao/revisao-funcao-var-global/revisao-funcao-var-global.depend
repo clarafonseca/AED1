@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1603379565 source:c:\users\clara\onedrive\documentos\algoritimos\revisao-funcao-var-global\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

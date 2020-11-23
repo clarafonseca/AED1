@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1603107733 source:c:\users\clara\onedrive\documentos\algoritimos\soma-parametro\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

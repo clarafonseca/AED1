@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1604199645 source:c:\users\clara\onedrive\documentos\algoritimos\recursividade\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
